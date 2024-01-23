@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="248dp"
+        android:layout_height="192dp"
+        app:srcCompat="@drawable/pngegg" />
+
+</LinearLayout>
